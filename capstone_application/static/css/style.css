@@ -1,0 +1,117 @@
+
+
+:root {
+    --primaryColor: #CF5DF5;
+    --primaryDarkColor: #CF5DF5;
+    --primaryHoverColor: #CF5DF5;
+    --secondaryColor: #F9B000;
+    --baseColor: #e0e1dd;
+    --baseFont: 'Heebo', sans-serif;
+    --titleFont: 'Courier Prime', monospace;
+    --regular: 400;
+    --medium: 500;
+    --bold: 700;
+    --black: 900;
+    --lightBg: #1b263b;
+    --navColor: #0d1b2a;
+    --thirdColor: #415a77;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: var(--baseFont);
+    color: var(--baseColor);
+    background-color: var(--lightBg);
+    line-height: normal;
+    font-size: 18px;
+  }
+  .body_text{
+    font-size: 22px;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  img {
+    max-width: 100%;
+  }
+  a {
+    color: inherit;
+  }
+  a:hover {
+    color: var(--primaryDarkColor);
+  }
+  a, .btn {
+    -webkit-transition: all 300ms ease-in-out 0s;
+    -o-transition: all 300ms ease-in-out 0s;
+    transition: all 300ms ease-in-out 0s;
+    text-decoration: none;
+  }
+  .btn:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  
+  .primaryColor {
+    color: var(--primaryColor);
+  }
+  .primaryDarkColor {
+    color: var(--primaryDarkColor);
+  }
+  .lightBg {
+    background-color: var(--lightBg);
+  }
+  
+  .navbar-brand{
+    margin-left: 40px;
+  }
+
+  .nav ul {
+    list-style: none;
+    text-align: center;
+  }
+ 
+  .nav ul li {
+    display: inline-block;
+  }
+  .navBar{
+    display: flex;
+    background-color: var(--navColor);
+    box-shadow: 0 0 6px #171640;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .centerBlock{
+    display: grid;
+    justify-content: center;
+  }
+  .mainBlock{
+    background-color: var(--thirdColor);
+    margin-top: 50px;
+    padding: 20px 50px 80px 50px;
+    border-radius: 4%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 6px #171640;
+  }
+
+  .headingText{
+    text-align: center;
+  }
+  
+  .cardBody{
+    background-color: var(--lightBg);
+  }
+
+  .card{
+    border-radius: 2%;
+    border: #0d1b2a;
+    overflow:hidden
+  }
+  
